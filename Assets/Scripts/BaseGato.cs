@@ -1,3 +1,5 @@
+//Camila Quintanilla 
+//Valeria Porcayo 
 using UnityEngine;
 
 public class BaseGato : MonoBehaviour

@@ -1,3 +1,5 @@
+//Camila Quintanilla 
+//Valeria Porcayo 
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -9,11 +11,11 @@ public class LogicGato : MonoBehaviour
     {
         logicGato();
     }
-    void logicGato()
+    public void logicGato()
     {
         List<int> disponibles = new List<int>();
 
-        for (int i = 0; i < 8; i++)
+        for (int i = 0; i < 9; i++)
         {
             disponibles.Add(i);
         }

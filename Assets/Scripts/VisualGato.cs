@@ -1,3 +1,5 @@
+//Camila Quintanilla 
+//Valeria Porcayo 
 using UnityEngine;
 
 public class VisualGato : MonoBehaviour
@@ -10,13 +12,16 @@ public class VisualGato : MonoBehaviour
     Vector3[] centros = new Vector3[9];
     void Start()
     {
-        visualGato();
         guardarCentros();
+        logicg.logicGato();
+        visualGato();
     }
     void visualGato()
     {
-        for (int i = 0; i < 8; i++)
+        Debug.Log("VisualGato funcionando");
+        for (int i = 0; i < 9; i++)
         {
+            Debug.Log("jugada: " + logicg.secuencia[i]);
             int cuadrito = logicg.secuencia[i];
 
             Vector3 pos = centros[cuadrito];
