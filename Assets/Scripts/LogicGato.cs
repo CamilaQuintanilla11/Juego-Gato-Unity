@@ -13,7 +13,7 @@ public class LogicGato : MonoBehaviour
     {
         List<int> disponibles = new List<int>();
 
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < 8; i++)
         {
             disponibles.Add(i);
         }
