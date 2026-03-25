@@ -64,7 +64,7 @@ public class VisualGato : MonoBehaviour
     void visualGato()
     {
         Debug.Log("VisualGato funcionando");
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < logicg.totalTurnos; i++)
         {
             Debug.Log("jugada: " + logicg.secuencia[i]);
             int cuadrito = logicg.secuencia[i];
